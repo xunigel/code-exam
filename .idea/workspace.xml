@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983edea6-acd2-4fc3-b732-db24dd5f4b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ProductTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/SideOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/VariationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ReferencePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/RegulatoryMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/OrdersHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/TickTableHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/engine/VariationValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/VariationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/VariationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/pojo/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
       <workItem from="1733752118151" duration="3199000" />
       <workItem from="1733755775220" duration="40000" />
       <workItem from="1733755817549" duration="69000" />
-      <workItem from="1733990299952" duration="2993000" />
+      <workItem from="1733990299952" duration="4193000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,13 @@
 package hsbc.interview;
 
 /**
- * Hello world!
+ * Hello HSBC!
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! nnn" );
+        System.out.println( "Hello HSBC!" );
     }
 }

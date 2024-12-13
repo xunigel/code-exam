@@ -10,6 +10,16 @@ public class Order {
 
     private float price;
 
+    public String getAlert() {
+        return alert;
+    }
+
+    public void setAlert(String alert) {
+        this.alert = alert;
+    }
+
+    private String alert;
+
     public int get_no() {
         return _no;
     }
@@ -69,6 +79,10 @@ public class Order {
 
     public int hashCode(){
         return toString().hashCode();
+    }
+
+    public boolean isEmpty() {
+        return price<=0 || side ==null || instrument==null;
     }
 
     public boolean equals(Object o) {
