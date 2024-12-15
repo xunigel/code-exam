@@ -12,6 +12,8 @@ import java.text.ParseException;
 
 /**
  * Hello HSBC!
+ * This is the entrance of this application.
+ * Please run this class as a main function.
  *
  */
 public class App 
