@@ -15,10 +15,10 @@
 ### 1. run workflow
 ![VariationValidator-workflow.jpg](./VariationValidator-workflow.jpg)
 ### 2. variateion validation logic
-![image](./variation-logic.jpg)
+![variation-logic.jpg](./variation-logic.jpg)
 ### 3. class diagram
 Full Diagram can be viewed in:
-![image](./VariationValidator-Class-Daigram.jpg)
+![VariationValidator-Class-Daigram.jpg](./VariationValidator-Class-Daigram.jpg)
 #### configuration classes: TickTable, ReferencePrice, Original Orders to be validated.
 ![config-classes.jpg](./config-classes.jpg)
 #### Utility, Pojo & Vailidate functions classes.
