@@ -2,7 +2,7 @@
 ## I. compile & run
 ``` mvn clean package ``` OR
 ``` mvn clean install ```
-Entrace main class:
+Entrance main class:
 ```hsbc.interview.App```
 ## II. build & runtime info
 | Tool  | Version Information            |
