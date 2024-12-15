@@ -11,6 +11,7 @@
 
 ## III. design
 ### 1. run workflow
+![VariationValidator-workflow.jpg](./VariationValidator-workflow.jpg)
 ### 2. variateion validation logic
 ![image](./variation-logic.jpg)
 ### 3. class diagram
@@ -22,7 +23,8 @@ Full Diagram can be viewed in:
 ![poj-calculate-classes.jpg](./poj-calculate-classes.jpg)
 #### user Input/Output process classes.
 ![input-handler-classes.jpg](./input-handler-classes.jpg)
-
+#### Java documemnt
+[Java Class Doc](./docs/allclasses-index.html)
 ## IVTest & Verification
 Test files:
 ``` src/main/resources ```

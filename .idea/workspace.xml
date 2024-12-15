@@ -5,104 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983edea6-acd2-4fc3-b732-db24dd5f4b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/VariationValidator-Class-Daigram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-classes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/App.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/AppTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/Orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/ReferencePriceTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/TickTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/TickTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/VariationConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/Config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/Handler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/OrdersHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/RPriceHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/TickTableHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/VariationConfigBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/handlers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/config/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/engine/VariationValidator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/engine/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/engine/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/ConsolePrinter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/InstrumentTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/ProductTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/ReferencePrice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/RegulatoryTypes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/SideOptions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/enums/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/in/UserInput.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/in/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/in/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/out/Output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/out/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/out/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/pojo/Order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/pojo/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hsbc/interview/pojo/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/search-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input-handler-classes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poj-calculate-classes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/asciidoc/class-uml.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variation-logic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VariationValidator-workflow.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +100,7 @@
       <workItem from="1733755817549" duration="69000" />
       <workItem from="1733990299952" duration="18086000" />
       <workItem from="1734228307721" duration="10933000" />
-      <workItem from="1734251517640" duration="38000" />
+      <workItem from="1734251517640" duration="1036000" />
     </task>
     <servers />
   </component>
