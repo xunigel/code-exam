@@ -25,7 +25,7 @@ Full Diagram can be viewed in:
 ![input-handler-classes.jpg](./input-handler-classes.jpg)
 #### Java documemnt
 [Java Class Doc](./docs/allclasses-index.html)
-## IVTest & Verification
+## IV. Test & Verification
 Test files:
 ``` src/main/resources ```
 ## V. Assumptions:
