@@ -1,17 +1,19 @@
-package hsbc.interview.api;
+package hsbc.interview.enums;
+
+import hsbc.interview.config.handlers.Config;
 
 /**
  * Assumption:
  *  A reference Price should be passed in Variation Validator at runtime for calculation.
  *
  */
-public class ReferencePrice {
-    public String getInstrucment() {
+public class ReferencePrice implements Config {
+    public InstrumentTypes getInstrucment() {
         return instrucment;
     }
 
     public void setInstrucment(String instrucment) {
-        this.instrucment = instrucment;
+        this.instrucment = InstrumentTypes.fromCode(instrucment);
     }
 
     public ProductTypes getpType() {
@@ -46,7 +48,7 @@ public class ReferencePrice {
         this.cPrice = cPrice;
     }
 
-    private String instrucment;
+    private InstrumentTypes instrucment;
 
     private ProductTypes pType;
     //Theo Price

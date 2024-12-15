@@ -1,4 +1,4 @@
-package hsbc.interview.api;
+package hsbc.interview.enums;
 
 import java.util.Arrays;
 

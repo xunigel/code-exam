@@ -24,7 +24,7 @@ public class Orders implements Config {
      */
     public synchronized void add(Order o) {
         if(o != null && !o.isEmpty()) {
-            _orders.add(o.get_no(), o);
+            _orders.add( o);
         } else
             return;
     }
@@ -51,7 +51,7 @@ public class Orders implements Config {
     public synchronized Order pop(){
         Order o = null;
         try {
-            o = _orders.getFirst();
+            o = _orders.get(0);
             _orders.remove(o);
             return o;
         } catch (NoSuchElementException e) {

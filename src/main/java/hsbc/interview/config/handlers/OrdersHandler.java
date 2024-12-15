@@ -1,7 +1,7 @@
 package hsbc.interview.config.handlers;
 
-import hsbc.interview.api.ConsolePrinter;
-import hsbc.interview.api.SideOptions;
+import hsbc.interview.enums.ConsolePrinter;
+import hsbc.interview.enums.SideOptions;
 import hsbc.interview.config.Orders;
 import hsbc.interview.pojo.Order;
 
@@ -23,8 +23,10 @@ public class OrdersHandler implements Handler{
             //parse tick table
             while(l!=null){
                 l = reader.readLine();
-                Order order = parseOneRow(l);
-                res.add(order);
+                if(l!=null) {
+                    Order order = parseOneRow(l);
+                    res.add(order);
+                }
             }
             return res;
         } catch (FileNotFoundException e) {
@@ -39,7 +41,7 @@ public class OrdersHandler implements Handler{
         Order r = new Order();
         r.set_no(Integer.parseInt(s[0].trim()));
         r.setInstrument(s[1].trim());
-        r.setSide(SideOptions.fromName(s[2].trim()));
+        r.setSide(SideOptions.fromCode(s[2].trim()));
         r.setPrice(Float.parseFloat(s[3].trim()));
         return r;
     }

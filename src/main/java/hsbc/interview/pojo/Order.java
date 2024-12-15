@@ -1,9 +1,10 @@
 package hsbc.interview.pojo;
 
-import hsbc.interview.api.SideOptions;
+import hsbc.interview.enums.SideOptions;
 
 public class Order {
     public static final String CSV_SEPARATER =",";
+    public static final String DOUBLE_QUOTE ="\"";
     private int _no;
     private String instrument;
     private SideOptions side;
@@ -74,7 +75,13 @@ public class Order {
     }
 
     public String toString(){
-        return _no+CSV_SEPARATER+instrument+CSV_SEPARATER+variation+CSV_SEPARATER+description;
+        return _no+CSV_SEPARATER
+                +DOUBLE_QUOTE+instrument+DOUBLE_QUOTE+CSV_SEPARATER
+                +DOUBLE_QUOTE+side.name()+DOUBLE_QUOTE+CSV_SEPARATER
+                +DOUBLE_QUOTE+price+DOUBLE_QUOTE+CSV_SEPARATER
+                +DOUBLE_QUOTE+alert+DOUBLE_QUOTE+CSV_SEPARATER
+                +DOUBLE_QUOTE+variation+DOUBLE_QUOTE+CSV_SEPARATER
+                +DOUBLE_QUOTE+description+DOUBLE_QUOTE;
     }
 
     public int hashCode(){

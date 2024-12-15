@@ -1,10 +1,10 @@
-package hsbc.interview.api;
+package hsbc.interview.enums;
 
 import java.util.Arrays;
 
 public enum SideOptions {
-    Buy("1"),
-    Sell("2");
+    Buy("Buy"),
+    Sell("Sell");
 
     private String code;
 

@@ -5,19 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983edea6-acd2-4fc3-b732-db24dd5f4b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ReferencePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/RegulatoryMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/OrdersHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/TickTableHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/engine/VariationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/price-variation-limiter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/ReferencePriceTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/RPriceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/VariationConfigBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/InstrumentTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/RegulatoryTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/in/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/out/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/options-tick.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/options.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/refprice.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stock-tick.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stock.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ProductTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/ProductTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/ReferencePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/ReferencePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/api/SideOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/enums/SideOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/RegulatoryMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/VariationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/VariationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/OrdersHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/OrdersHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/TickTableHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/TickTableHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/engine/VariationValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/engine/VariationValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hsbc/interview/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hsbc/interview/pojo/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,25 +70,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nigelxu/IdeaProjects/code-exam",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nigelxu/IdeaProjects/code-exam&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/classes" />
+      <recent name="$PROJECT_DIR$/target/classes/hsbc/interview" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hsbc.interview.out" />
+      <recent name="hsbc.interview.config" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Java19Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="hsbc.interview.App" />
@@ -93,7 +124,8 @@
       <workItem from="1733752118151" duration="3199000" />
       <workItem from="1733755775220" duration="40000" />
       <workItem from="1733755817549" duration="69000" />
-      <workItem from="1733990299952" duration="4193000" />
+      <workItem from="1733990299952" duration="18086000" />
+      <workItem from="1734228307721" duration="6567000" />
     </task>
     <servers />
   </component>
@@ -102,5 +134,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/OrdersHandler.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hsbc/interview/config/handlers/TickTableHandler.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hsbc/interview/config/TickTable.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hsbc/interview/engine/VariationValidator.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

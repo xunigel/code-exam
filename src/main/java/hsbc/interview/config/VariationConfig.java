@@ -1,51 +1,104 @@
 package hsbc.interview.config;
 
 import hsbc.interview.config.handlers.Config;
+import hsbc.interview.enums.InstrumentTypes;
+import hsbc.interview.enums.ProductTypes;
+import hsbc.interview.enums.RegulatoryTypes;
 
 public class VariationConfig implements Config {
+    public TickTable getTickTable() {
+        return tickTable;
+    }
+
+    public Orders getOrders() {
+        return orders;
+    }
+
+    public void setOrders(Orders orders) {
+        this.orders = orders;
+    }
+
+    public Orders orders;
+
+    public void setTickTable(TickTable tickTable) {
+        this.tickTable = tickTable;
+    }
+
     //determined tick size
-    float tSize;
+    TickTable tickTable;
 
-    public float gettSize() {
-        return tSize;
+    public Number getLimit() {
+        return limit;
     }
 
-    public void settSize(float tSize) {
-        this.tSize = tSize;
+    public void setLimit(Number limit) {
+        this.limit = limit;
     }
 
-    public float getrPrice() {
-        return rPrice;
-    }
+    Number limit;
 
-    public void setrPrice(float rPrice) {
-        this.rPrice = rPrice;
-    }
-
-    public String getValMode() {
+    public int getValMode() {
         return valMode;
     }
 
-    public void setValMode(String valMode) {
+    public void setValMode(int valMode) {
         this.valMode = valMode;
     }
 
-    //determined reference price
-    float rPrice;
+    /**
+     * variation validation mode:
+     *      1 - by percentage
+     *      2 - by absolute value
+     *      3 - by tick size
+     */
 
-    //variation validateion mode:
+    int valMode;
+
+    public RegulatoryTypes getRegulatoryMode() {
+        return regulatoryMode;
+    }
+
+    public void setRegulatoryMode(RegulatoryTypes regulatoryMode) {
+        this.regulatoryMode = regulatoryMode;
+    }
+
     //  avantage_only,
     //  disavantage_only
     //  or default as both
-    String valMode;
-    VariationConfig(float tSize, float rPrice) {
-        this.tSize = tSize;
-        this.rPrice = rPrice;
-        this.valMode = RegulatoryMode.BOTH;
+    RegulatoryTypes regulatoryMode;
+    TickTypes tType;
+
+    public TickTypes gettType() {
+        return tType;
     }
-    VariationConfig(float tSize, float rPrice, String valMode) {
-        this.tSize = tSize;
-        this.rPrice = rPrice;
-        this.valMode = valMode;
+
+    public void settType(TickTypes tType) {
+        this.tType = tType;
+    }
+
+    public ReferencePriceTable getRpTable() {
+        return rpTable;
+    }
+
+    public void setRpTable(ReferencePriceTable rpTable) {
+        this.rpTable = rpTable;
+    }
+
+    ReferencePriceTable rpTable;
+    public VariationConfig(TickTable ttbl, ReferencePriceTable rpt, TickTypes tt, RegulatoryTypes rType) {
+        this.regulatoryMode = rType;
+        this.tickTable = ttbl;
+        this.tType = tt;
+        this.rpTable = rpt;
+    }
+    public Number getReferencePriceByProduct(ProductTypes t) {
+       return rpTable.getByProductType(t);
+    }
+    public Number getReferencePriceByInstrument(InstrumentTypes itp) {
+        return rpTable.getByInstrumentType(itp);
+    }
+
+    public Number getTickSize(Number p){
+        return tickTable.determineTickSize(p);
     }
 }

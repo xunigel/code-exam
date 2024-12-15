@@ -1,6 +1,6 @@
 package hsbc.interview.config.handlers;
 
-import hsbc.interview.api.ConsolePrinter;
+import hsbc.interview.enums.ConsolePrinter;
 import hsbc.interview.config.TickTable;
 
 import java.io.*;
@@ -25,8 +25,10 @@ public class TickTableHandler implements Handler{
             //parse tick table
             while(l!=null){
                 l = reader.readLine();
-                Number[] func = parseOneRow(l);
-                res.add(func);
+                if(l!=null) {
+                    Number[] func = parseOneRow(l);
+                    res.add(func);
+                }
             }
             TickTable tt = new TickTable(res);
             return tt;

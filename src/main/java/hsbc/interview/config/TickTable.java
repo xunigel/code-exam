@@ -2,12 +2,13 @@ package hsbc.interview.config;
 
 import hsbc.interview.config.handlers.Config;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 public class TickTable implements Config {
     private List<Number[]> tTable = new ArrayList<Number[]>();
+
+
     public TickTable(){
         tTable.clear();
     }
@@ -37,7 +38,7 @@ public class TickTable implements Config {
     }
     
     private boolean validateTickTable(List<Number[]> value) {
-        boolean r = false;
+        boolean r = true;
         r = r && value!=null && value.size()>0;
         for (Number[] item:value) {
             r = r && item.length==3 && item[0]!=null && item[2]!=null;
@@ -59,3 +60,4 @@ public class TickTable implements Config {
     }
     
 }
+
